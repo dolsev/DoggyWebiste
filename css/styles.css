@@ -1,0 +1,172 @@
+/* general */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+font-weight: 900; 
+font-size: 3em;
+line-height: 1.5;
+}
+
+#title {
+background-color: #ff4c68;
+color:white;
+}
+/* navbar */
+
+.navbar-brand {
+font-size:3em;
+font-weight: bolder;
+font-family: 'Ubuntu', sans-serif;
+}
+.navbar-brand:hover {
+    text-shadow: 0 0 15px rgba(58, 48, 48, 0.438);
+}
+.navbar {
+margin-bottom: 3.5em;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+font-size: 1.5em;
+margin:0 1em;
+color: rgb(77, 70, 70);
+font-weight: 600;
+font-family: 'Ubuntu', sans-serif;
+
+}
+.nav-link.active:hover {
+color:rgb(46, 29, 29);
+}
+
+/*btn*/
+
+.btn {
+margin-bottom:2em;
+}
+.fa-brands {
+margin-right: 5px;
+}
+
+.download-btn {
+margin: 20px 4px 30px 0px;
+}
+
+.blck-btn {
+background-color:rgb(77, 70, 70);
+}
+
+.blck-txt {
+color:rgb(77, 70, 70);
+}
+.container-fluid {
+padding: 3% 15%;
+}
+
+.iphone-mockups {
+transform:rotate(15deg);
+position: relative;
+height: 100%;
+}
+.img-iphone {
+    height:600px;
+    padding-top:100px ;
+}
+/*Features*/
+#features {
+    z-index:1;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.986);
+}
+.col-feautures{
+    padding:40px;
+    display: inline;
+    text-align: center;
+    }
+#features h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+#features p {
+    font-weight: 500;
+    font-size:1rem;
+    color: #8f8f8f;
+}
+
+.features-pics {
+    padding: 20px 0 20px 0px;
+    color:#ef8172;
+    font-size: 2em;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    padding: 100px;
+    color: white;
+}
+#testimonials h2 {
+    font-weight:700;
+    font-size: 2em;
+    font-style: italic;
+}
+.testimonials-img{
+    height: 150px;
+    border-radius: 100px;
+    padding: 20px;
+}
+#press {
+    text-align: center;
+    background-color: #ef8172;
+}
+.press-img {
+    padding: 0 30px 50px 30px;
+    height:90px;
+    
+}
+.pricing-intro {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+    font-weight: 600;
+}
+.sign-up-btns:hover {
+    background-color: #ff4c68;
+}
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 150px 0;
+}
+#cta h3{
+    color: white;
+    font-size: 3em;
+    font-weight: 900;
+    padding-bottom: 50px;
+    
+}
+#footer {
+    text-align: center;
+    padding: 50px;
+    color: rgb(20, 9, 9);
+}
+#footer p {
+    font-size: 1em;
+    color:#8f8f8f;
+
+}
+.footer-img {
+    padding:0 5px 10px 5px;
+}
+
+@media (max-width:1028px) {
+    body {
+        text-align: center;
+    }
+    .iphone-mockups {
+        transform:rotate(0);
+        position: static;
+        height: 100%;
+    }
+}
